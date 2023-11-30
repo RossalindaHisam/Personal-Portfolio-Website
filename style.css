@@ -12,6 +12,14 @@
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
+@media (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+    /* Add mobile-specific styles here */
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 /* Root Variables */
 :root {
