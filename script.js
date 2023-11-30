@@ -1,4 +1,5 @@
-
+// Add this line at the beginning of your script.js
+const projectsContainer = document.getElementById('project-container');
 // script.js
 const menuIcon = document.getElementById('menu-icon');
 const navbar = document.querySelector('.navbar');
