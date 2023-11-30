@@ -1,0 +1,190 @@
+<link rel='stylesheet' href='style.css'>
+<link rel='javascript' href='script.js'>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+	
+	<!--box icons -->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<!--custom css -->
+	<link rel="stylesheet" href="styles.css">
+	
+</head>
+<body>
+
+   <header class="header">
+        <a href="#" class="logo">portfolio</a>
+   
+   <i class='bx bx-menu'id="menu-icon"></i>
+   
+   <nav class="navbar">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+	</header>
+	
+   <!--home section design-->
+   <section class="home" id="home">
+    <div class="home-content">
+	    <h3>Hello,It's Me</h3>
+		<h1>Siti Rossalinda binti Muhamad Azrul Hisam</h1>
+		<h3> And I'm from <span>Kelantan,Malaysia</span></h3>
+		<p> </p>
+		
+	</div>
+	
+	<div class="home-img">
+	    <img src="lin.png" alt="" class="resizable-image">
+	   </div>
+	</section>
+	
+
+	
+	<!--about section design-->
+	<section class="about" id="about">
+	   <!-- Tambahkan elemen div untuk bingkai -->
+<div class="about-img-frame">
+    <img src="professional.jpg" alt="Professional Photo" class="resizable-image">
+</div>
+	   
+	   <div class="about-content">
+	      <h2 class="heading">About<span>Me</span></h2>
+		  <h3>Unisza Student</h3>
+		  <div class="read-more-container">
+    <p>
+        Hello! My name is Siti Rossalinda Binti Muhamad Azrul Hisam, and I love to go on wanderlust adventures...
+        <!-- Sebahagian teks di luar butang "Read More" -->
+		
+		
+        <span class="dots"> ...</span>
+    </p>
+     <!-- Butang "Read More" -->
+        <button onclick="toggleReadMore()" id="read-more-btn">Read More</button>
+    </div>
+
+    <p class="more-text"> Currently, I am a student at Universiti Sultan Zainal Abidin (UniSZA), pursuing a Bachelor's degree in Information Technology (Media Informatics). My academic journey began at Sekolah Menengah Kebangsaan Dabong, where I completed my Form Six education with a focus on social sciences. As the fourth child among my siblings, family holds a special place in my heart. I come from the serene village of Kampung Slow Temiang, where the slow pace of life allows me to appreciate the simple joys and beauty of nature.
+
+Wandering is not just a hobby for me; it's a way of life. The excitement of discovering new places and experiencing different cultures is a source of joy and satisfaction for me. Whether navigating through bustling city streets or trekking through remote natural landscapes, the sense of adventure and discovery fuels my spirit.
+
+In addition to my love for wandering, I am deeply immersed in my studies at UniSZA, where I explore the fascinating intersection of technology and media informatics. This academic journey is preparing me for a future where I can contribute to the ever-evolving landscape of information technology.
+
+Alongside my passion for wandering, I also have a deep interest in climbing. Scaling mountains not only presents physical challenges but also offers a profound connection to the raw beauty of nature. The combination of wandering and climbing allows me to embrace a holistic approach to life, where both the thrill of reaching new heights and the serenity of discovering unexplored landscapes contribute to my personal growth and fulfillment.
+
+My wanderlust has taken me to various destinations, allowing me to appreciate the diversity of our world. I find solace in the simplicity of connecting with new environments and meeting people with unique stories to share. The thrill of the unknown and the anticipation of what lies around the next corner are elements that keep my adventurous spirit alive.
+
+Looking ahead, my ambition is to translate my passion for hospitality into reality by opening my own café. I envision creating a warm and welcoming space where people can gather, relax, and savor delicious offerings. The dream of running a café stems from my desire to bring people together and create memorable experiences through the joy of good food and camaraderie. In essence, my life is a blend of academic pursuits, adventurous wanderings, and a heartfelt aspiration to cultivate a sense of community through my future café..</p>
+
+
+	
+	
+
+		
+	</div>
+	   
+	</section>
+	
+
+
+	
+	<!--portfolio section design-->
+	<section class="portfolio" id="portfolio">
+	<h2 class="heading">About<span>Me</span></h2>
+	
+	<div class="portfolio-container">
+	<div class="portfolio-box">
+	<img src="keluarga.jpg"alt="">
+	<div class="portfolio-layer">
+	<h4>My Family</h4>
+	<p> In my family of six, which includes my mother, father, and four siblings, I am the fourth child with an older brother. Despite each individual having their own strengths and weaknesses, my family is a source of strength in my life. Our bond goes beyond blood; it is a unity that supports and complements one another. Together, we form a strong foundation, facing life's challenges with diversity and mutual support.</p>
+	
+</div>
+</div>
+
+<div class="portfolio-box">
+	<img src="journey.jpg"alt="">
+	<div class="portfolio-layer">
+	<h4>My Hobby</h4>
+	<p> passionate about wandering and exploring. It's more than a hobby; it's a lifestyle that brings me joy and satisfaction. Whether trekking remote landscapes or engaging in new experiences, the thrill of adventure fuels my spirit. In my free time, I love trying new things, contributing to personal growth and finding inspiration. This exploration of the unknown connects me with life's simple pleasures and the beauty of the world.</p>
+	
+</div>
+</div>
+
+
+<div class="portfolio-box">
+	<img src="artme.jpg"alt="">
+	<div class="portfolio-layer">
+	<h4>What i like to do</h4>
+	<p>Initially uninterested in art, I stumbled upon it during my school years. Surprisingly, I grew to enjoy painting, finding it intriguing and therapeutic. Now, it has become a meaningful and enjoyable pursuit, adding a vibrant dimension to my life.</p>
+	
+</div>
+</div>
+</section>
+	
+	<!--projects section design-->
+<section class="projects" id="projects">
+    <h2 class="heading">My<span>Projects</span></h2>
+
+    <!-- Create a container for project cards -->
+    <div class="projects-container" id="project-container">
+        <!-- Project cards will be dynamically added here -->
+    </div>
+</section>
+
+	
+
+<!--contact section design-->
+<section class="contact" id="contact">
+  <h2 class="heading">Contact<span>Me!<span></h2>
+  
+  <form action="#">
+  <div class="input-box">
+      <input type="text"placeholder="Full Name">
+	  <input type="email"placeholder="Email Address">
+</div>
+
+<div class="input-box">
+      <input type="number"placeholder="Mobile Number">
+	  <input type="text"placeholder="Email Subject">
+ </div>
+ <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+ <input type="submit" value="Send Message"class="btn">
+  </form>
+  <!-- Social media links -->
+    <div class="social-media">
+        <a href="https://www.facebook.com/Siti Rossalinda" target="_blank">
+            <i class='bx bxl-facebook'></i>
+        </a>
+        <a href="https://twitter.com/Rossesiti" target="_blank">
+            <i class='bx bxl-twitter'></i>
+        </a>
+        <a href="https://www.instagram.com/srossallindah/" target="_blank">
+            <i class='bx bxl-instagram'></i>
+        </a>
+       
+    </div>
+</section>
+	
+<!-- Add onsubmit attribute to the form element -->
+<form action="#" onsubmit="return validateForm()">
+</form>
+
+
+	<!--custom js-->
+	<script src="script.js"></script>
+
+<!-- Footer section -->
+<footer>
+    <p>&copy; 2023 Personal Portfolio Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+	
+
+   

@@ -1,0 +1,45 @@
+<link rel='stylesheet' href='project2.css.txt'>
+<link rel='stylesheet' href='project2.js'>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Culinary Delights</title>
+</head>
+<body>
+  <header>
+    <h1>Culinary Delights - Online Recipe Book</h1>
+  </header>
+
+  <main>
+    <section id="recipe-list">
+      <!-- Display recipes here dynamically using JavaScript -->
+    </section>
+	
+
+    <section id="add-recipe-form">
+      <h2>Add a New Recipe</h2>
+      <form id="recipe-form">
+        <label for="title">Title:</label>
+        <input type="text" id="title" required>
+
+        <label for="description">Description:</label>
+        <textarea id="description" required></textarea>
+
+        <label for="ingredients">Ingredients:</label>
+        <textarea id="ingredients" required></textarea>
+
+        <label for="instructions">Instructions:</label>
+        <textarea id="instructions" required></textarea>
+
+        <button type="button" onclick="addRecipe()">Add Recipe</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="project2.js"></script>
+</body>
+</html>
+
