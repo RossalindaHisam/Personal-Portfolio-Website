@@ -130,7 +130,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding: 7rem 9% 2rem;
+    padding: 10rem 9% 2rem;
 }
 .home-content {
     text-align: center;
@@ -147,7 +147,7 @@ body {
 }
 
 .home .resizable-image {
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 
