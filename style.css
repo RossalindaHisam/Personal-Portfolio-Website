@@ -130,7 +130,13 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding: 10rem 9% 2rem;
+    padding: 5rem 9% 2rem;
+}
+.home-content {
+    text-align: center;
+}
+.home-img {
+    margin-top: 2rem;
 }
 
 .home-img img {
